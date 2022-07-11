@@ -40,7 +40,7 @@
         <img src="assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle">
         <h1 class="text-light"><a href="index.html">Victor Nkire</a></h1>
         <div class="social-links mt-3 text-center">
-          <a href="https://t.me/victorDylan" class="instagram"><i class="bx bxl-telegram"></i></a>
+          <a href="https://github.com/ObinnaVic" class="instagram"><i class="bx bxl-github"></i></a>
           <a href="https://www.linkedin.com/in/victor-n77/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
           <a href="https://wa.me/2348133232378?text=Hello%20" class="whatsapp"><i class="bx bxl-whatsapp"></i></a>
         </div>
@@ -409,8 +409,8 @@
               </div>
             </div>
           </div>
-          <!-- <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-            <form class="form-control" onsubmit="sendEmail(); reset(); return false;">
+          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+            <form class="form-control" action="https://formsubmit.co/0e9137ec7bddf336e667110e901de8b8" method="POST">
               <div class="row">
                 <div class="form-group col-md-6">
                   <label for="name">Your Name</label>
@@ -427,12 +427,12 @@
               </div>
               <div class="form-group">
                 <label for="name">Message</label>
-                <textarea class="form-control" id="message" rows="10" required></textarea>
+                <textarea class="form-control" name="message" id="message" rows="10" required></textarea>
               </div>
               <div class="text-center"><button type="submit">Send Message</button></div>
             </form>
           </div>
-        </div> -->
+        </div>
 
 
       </div>
@@ -450,29 +450,9 @@
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/typed.js/typed.min.js"></script>
   <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
   
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-  
-  <script src="https://smtpjs.com/v3/smtp.js"></script>
-  <script>
-    function sendEmail() {
-      Email.send({
-        SecureToken: '267c2be7-0fbf-458d-b292-0241dd369543',
-        To : 'victornkire777@gmail.com',
-        From : document.querySelector('#email').value,
-        Subject : "New contact form enquiry",
-        Body : `Name: ${document.querySelector('#name').value} <br>
-        Email: ${document.querySelector('#email').value} <br>
-        Message: ${document.querySelector('#message')}`
-      }).then(
-      message => alert("message sent successfully")
-      );  
-    }
-  </script>
-
-
 </body>
 
 </html>
