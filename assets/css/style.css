@@ -365,6 +365,40 @@ section {
   width: 100%;
 }
 
+.swiper-wrapper,
+.swiper {
+  height: 150px !important;
+}
+
+.swiper-slide img {
+  width: 50%;
+}
+
+.swiper-slide
+.react,
+.swiper-slide
+.github {
+  width: 70%;
+}
+
+@media only screen and (max-width: 768px){
+  .swiper-wrapper,
+    .swiper {
+      height: 80px !important;
+    }
+
+  .swiper-slide .react,
+  .swiper-slide .github {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  .swiper-slide img {
+    width: 100%;
+  }
+}
+
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
