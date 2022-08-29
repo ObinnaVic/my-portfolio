@@ -251,7 +251,7 @@ section {
 }
 
 .section-bg {
-  background: #f5f8fd;
+  background: #1b2029;
 }
 
 .section-title {
@@ -263,7 +263,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #173b6c;
+  color: #297aec;
 }
 .section-title h2::after {
   content: "";
@@ -381,6 +381,14 @@ section {
   width: 70%;
 }
 
+.summary {
+  color: white;
+}
+
+.swiper-slide .git {
+  width: 100%;
+}
+
 @media only screen and (max-width: 768px){
   .swiper-wrapper,
     .swiper {
@@ -390,6 +398,11 @@ section {
   .swiper-slide .react,
   .swiper-slide .github {
     width: 100%;
+  }
+
+  .swiper-slide .git {
+    width: 100%;
+    height: 80%;
   }
 }
 
