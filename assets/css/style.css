@@ -207,6 +207,9 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 1;
 } */
 #particles .hero-container {
+  background-color: #10233b;
+  padding: 20px;
+  border-radius: 20px;
   position: absolute;
   z-index: 2;
   top: 40%;
@@ -507,7 +510,14 @@ section {
   z-index: 2;
   opacity: 0;
 }
-.portfolio .portfolio-wrap .portfolio-links {
+
+.portfolio .portfolio-wrap .project-info {
+  background-color: #122f57;
+  color: white;
+  text-align: center;
+}
+
+.portfolio .portfolio-wrap .portfolio-details {
   opacity: 1;
   left: 0;
   right: 0;
@@ -515,6 +525,11 @@ section {
   z-index: 3;
   position: absolute;
   transition: all ease-in-out 0.3s;
+  display: block;
+  justify-content: center;
+}
+
+.portfolio .portfolio-wrap .portfolio-links {
   display: flex;
   justify-content: center;
 }
@@ -539,7 +554,7 @@ section {
   bottom: 0;
   opacity: 1;
 }
-.portfolio .portfolio-wrap:hover .portfolio-links {
+.portfolio .portfolio-wrap:hover .portfolio-details {
   opacity: 1;
   bottom: 0;
 }
