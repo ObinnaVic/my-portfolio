@@ -759,6 +759,16 @@ section {
 .contact .php-email-form button[type=submit]:hover {
   background: #37b3ed;
 }
+
+.send-btn {
+  background-color: #149ddd;
+  border-radius: 25px;
+  margin: 5px;
+  padding: 5px 10px;
+  border: 0px;
+  color: white;
+}
+
 @-webkit-keyframes animate-loading {
   0% {
     transform: rotate(0deg);
